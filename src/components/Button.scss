@@ -9,4 +9,13 @@
   background-color: hsl(150, 100%, 66%);
   margin-bottom: -3.5rem;
   padding: 2rem;
+  transition: all 0.2s;
+
+  &:hover {
+    box-shadow: 0px 0px 50px 2px hsl(150, 100%, 66%);
+  }
+
+  &:active {
+    background-color: coral;
+  }
 }
