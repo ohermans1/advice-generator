@@ -1,0 +1,25 @@
+.divider {
+  color: hsl(193, 38%, 86%);
+  font-size: 2.5rem;
+  position: relative;
+  padding-bottom: 4rem;
+  font-weight: 800;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 20rem;
+    border-bottom: 2px solid hsl(217, 19%, 38%);
+    top: 1.9rem;
+    right: -21rem;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 20rem;
+    border-bottom: 2px solid hsl(217, 19%, 38%);
+    top: 1.9rem;
+    left: -21rem;
+  }
+}

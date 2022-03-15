@@ -1,0 +1,16 @@
+.advice {
+  &__header {
+    color: hsl(150, 100%, 66%);
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 2rem;
+    padding-top: 4.5rem;
+  }
+
+  &__text {
+    padding: 1rem 3rem 3rem 3rem;
+    font-size: 2.5rem;
+    color: hsl(193, 38%, 86%);
+  }
+}
